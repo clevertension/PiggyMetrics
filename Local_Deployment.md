@@ -11,3 +11,5 @@ add the following host mappings
 192.168.99.100 statistics-mongodb
 192.168.99.100 notification-mongodb
 ```
+
+start your *mongo* and *rabbitmq*
