@@ -32,12 +32,17 @@ spring:
       username: user
       password: ${MONGODB_PASSWORD}
       database: piggymetrics
-      port: 27017
+      port: 32774
+  rabbitmq:
+    host: rabbitmq
+    port: 32777
+    username: user
+    password: 123456
   mail:
-    host: smtp.gmail.com
+    host: smtp.mxhichina.com
     port: 465
-    username: dev-user
-    password: dev-password
+    username: dan.zheng@ideacome.com
+    password: 1qazCDE#5tgb
     properties:
       mail:
         smtp:
